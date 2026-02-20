@@ -1,119 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Pranay Devarasetty | Data Engineer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f6f9;
-            color: #333;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pranay Devarasetty | Data Engineer</title>
 
-        header {
-            background: #1f2937;
-            color: white;
-            padding: 40px 20px;
-            text-align: center;
-        }
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-        header h1 {
-            margin: 0;
-            font-size: 36px;
-        }
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 
-        header p {
-            font-size: 18px;
-            margin-top: 10px;
-        }
+body {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+    scroll-behavior: smooth;
+}
 
-        nav {
-            background: #111827;
-            text-align: center;
-            padding: 10px;
-        }
+header {
+    text-align: center;
+    padding: 80px 20px;
+}
 
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
+.profile-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 4px solid #38bdf8;
+    object-fit: cover;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
 
-        section {
-            padding: 50px 20px;
-            max-width: 1000px;
-            margin: auto;
-        }
+h1 {
+    font-size: 40px;
+}
 
-        h2 {
-            border-bottom: 2px solid #1f2937;
-            padding-bottom: 10px;
-        }
+.subtitle {
+    color: #94a3b8;
+    margin-top: 10px;
+}
 
-        .card {
-            background: white;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background: #38bdf8;
+    color: black;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: 0.3s;
+}
 
-        footer {
-            background: #1f2937;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
+.btn:hover {
+    background: white;
+    transform: scale(1.05);
+}
 
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background: #2563eb;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 10px;
-        }
-    </style>
+section {
+    padding: 70px 10%;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+}
+
+h2 {
+    margin-bottom: 20px;
+    border-left: 5px solid #38bdf8;
+    padding-left: 10px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #94a3b8;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+</style>
 </head>
+
 <body>
 
 <header>
+    <!-- Replace image name with your image file -->
+    <img src="profile.jpg" alt="Pranay" class="profile-img">
+
     <h1>Pranay Devarasetty</h1>
-    <p>Data Engineer | Big Data | Cloud | Spark | Azure</p>
+    <p class="subtitle">Data Engineer | Spark | Azure | Databricks | SQL</p>
+
+    <!-- Resume Download Button -->
+    <a href="resume.pdf" download class="btn">Download Resume</a>
 </header>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-</nav>
-
-<section id="about">
+<section>
     <h2>About Me</h2>
     <div class="card">
         <p>
-            I am a passionate Data Engineer with 5+ years of experience 
-            designing scalable data pipelines and transforming complex datasets 
-            into actionable business insights. I specialize in Big Data, Cloud Platforms, 
-            and advanced data processing tools.
+            Passionate Data Engineer with 5+ years of experience designing scalable
+            data pipelines and transforming complex datasets into actionable insights.
+            Specialized in Big Data technologies, cloud platforms, and enterprise
+            data solutions that drive business growth.
         </p>
     </div>
 </section>
 
-<section id="skills">
+<section>
     <h2>Skills</h2>
     <div class="card">
         <ul>
             <li>Python, SQL</li>
-            <li>PySpark, Spark</li>
-            <li>Azure Data Factory (ADF)</li>
+            <li>PySpark & Apache Spark</li>
+            <li>Azure Data Factory</li>
             <li>Databricks</li>
             <li>Snowflake</li>
             <li>ETL & Data Warehousing</li>
@@ -121,31 +144,36 @@
     </div>
 </section>
 
-<section id="projects">
+<section>
     <h2>Projects</h2>
-
     <div class="card">
         <h3>Real-Time Data Pipeline</h3>
-        <p>Built a scalable streaming pipeline using Spark and Azure to process millions of records daily.</p>
+        <p>Designed and implemented a scalable streaming pipeline processing millions of records daily using Spark and Azure.</p>
     </div>
 
     <div class="card">
         <h3>Enterprise Data Warehouse</h3>
-        <p>Designed and implemented a cloud-based data warehouse using Snowflake and ADF.</p>
+        <p>Built a cloud-based warehouse using Snowflake and ADF enabling advanced analytics and reporting.</p>
     </div>
-
 </section>
 
-<section id="contact">
-    <h2>Contact</h2>
-    <div class="card">
-        <p>Email: pranaydevarasetty@gmail.com</p>
-        <p>LinkedIn: www.linkedin.com/in/pranaydevarasetty</p>        
+<section>
+    <h2>Connect With Me</h2>
+    <div class="card" style="text-align:center;">
+
+        <a href="https://github.com/pranay377" target="_blank" class="social">
+            <i class="fab fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/pranaydevarasetty" target="_blank" class="social">
+            <i class="fab fa-linkedin"></i>
+        </a>
+
     </div>
 </section>
 
 <footer>
-    <p>© 2026 Pranay Devarasetty | All Rights Reserved</p>
+    © 2026 Pranay Devarasetty | All Rights Reserved
 </footer>
 
 </body>
