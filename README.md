@@ -32,5 +32,4 @@ CI/CD Pipelines 🔄
 Kafka 🔗
 StreamSets 🌐
 Linux 🐧
-Contact: MahaboobSheik26@gmail.com 📧
 
