@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pranay Devarasetty | Data Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            background: #1f2937;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        nav {
+            background: #111827;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            border-bottom: 2px solid #1f2937;
+            padding-bottom: 10px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Pranay Devarasetty</h1>
+    <p>Data Engineer | Big Data | Cloud | Spark | Azure</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I am a passionate Data Engineer with 5+ years of experience 
+            designing scalable data pipelines and transforming complex datasets 
+            into actionable business insights. I specialize in Big Data, Cloud Platforms, 
+            and advanced data processing tools.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+        <ul>
+            <li>Python, SQL</li>
+            <li>PySpark, Spark</li>
+            <li>Azure Data Factory (ADF)</li>
+            <li>Databricks</li>
+            <li>Snowflake</li>
+            <li>ETL & Data Warehousing</li>
+        </ul>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Real-Time Data Pipeline</h3>
+        <p>Built a scalable streaming pipeline using Spark and Azure to process millions of records daily.</p>
+    </div>
+
+    <div class="card">
+        <h3>Enterprise Data Warehouse</h3>
+        <p>Designed and implemented a cloud-based data warehouse using Snowflake and ADF.</p>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+        <p>Email: pranaydevarasetty@gmail.com</p>
+        <p>LinkedIn: www.linkedin.com/in/pranaydevarasetty</p>        
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Pranay Devarasetty | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
